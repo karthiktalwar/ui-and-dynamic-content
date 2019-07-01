@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Francois+One&display=swap');
+
+* {
+/*    border: 1px solid red;*/
+    box-sizing: border-box;
+    line-height: normal;
+}
+
+h1 {
+    font-family: 'Francois One', sans-serif;
+    color: #CC431D;
+    font-size: 3em;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #CC431D;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 45rem;
+    background: url("../img/background.jpg");
+    background-color: #CCB26C;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.box {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.7em;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #f9e5e1;
+    border-width: 1px;
+    margin-top: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 0.7em;
+    background-color: #ff8f70;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    border-width: 1px;
+    margin-top: 0.7em;
+}
+
+.box {
+    margin-bottom: 3em;
+}
+
+.box ul {
+    padding-inline-start: 0;
+}
+
+.box ul li {
+    text-align: left;
+    list-style-type: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #CC431D;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: 1.5px solid #f9e5e1;
+}
+
+.box ul li::before {
+    content: ">";
+    font-weight: bold;
+    margin-right: 0.5em;
+}
+
+.social {
+    border-top: 1.5px solid #ff8f70;
+    padding: 2em;
+    text-align: center;
+}
+
+.social img {
+    width: 50px;
+    margin-right: 1em;
+}
+
+.list {
+    width: 80%;
+
+}
